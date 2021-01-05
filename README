@@ -1,5 +1,3 @@
-hping2 readme
-antirez@invece.org
 
 DESCRIPTION
 
@@ -20,6 +18,7 @@ DESCRIPTION
 	- Firewalk like usage.
 	- Remote OS fingerprint.
 	- TCP/IP stack auditing.
+	- IPv6 support
 	- A lot of others.
 
 	It's also really a good didactic tool to learn TCP/IP.
@@ -58,31 +57,8 @@ DESCRIPTION
 
 	Also vim developers, ee.lbl.gov for tcpdump and GNU in general.
 
-DOWNLOAD
-
-	The hping2 primary download site is the following:
-
-		http://www.kyuzz.org/antirez/hping2.html
-
-	----------------------------------------------------------------
-	How to get the hping2 source code from the anonymous CVS server
-	----------------------------------------------------------------
-
-	$ cvs -d :pserver:anonymous@cvs.hping2.sourceforge.net:/cvsroot/hping2 login   
-
-	CVS will ask for the password, just press enter, no password is required
-
-	than type the following to download the full source code.
-
-	$ cvs -z8 -d :pserver:anonymous@cvs.hping2.sourceforge.net:/cvsroot/hping2 checkout hping2
-
-	-----------------------------------
-	How to update your source code tree
-	-----------------------------------
-
-	change the current directory to /somewhere/hping2, than just type:
-
-	$ cvs update
+	IPv6 support, flood modes:
+	Matyas Koszik		<koszik@atw.hu>
 
 REQUIREMENTS
 
